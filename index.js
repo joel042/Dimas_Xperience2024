@@ -8,10 +8,10 @@ document
       document.getElementById("name").value.trim()
     );
     const pickUpLocation = encodeURIComponent(
-      document.getElementById("pick-up-location").value.trim()
+      document.getElementById("Full-Name").value.trim()
     );
     const pickUpContact = encodeURIComponent(
-      document.getElementById("pick-up-contact").value.trim()
+      document.getElementById("Email-address").value.trim()
     );
     const pickUpItem = encodeURIComponent(
       document.getElementById("pick-up-item").value.trim()
