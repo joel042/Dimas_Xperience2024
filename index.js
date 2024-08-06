@@ -8,13 +8,13 @@ document
       document.getElementById("name").value.trim()
     );
     const FullName = encodeURIComponent(
-      document.getElementById("Full-Name").value.trim()
+      document.getElementById("full-Name").value.trim()
     );
     const EmailAddress = encodeURIComponent(
-      document.getElementById("Email-address").value.trim()
+      document.getElementById("email-address").value.trim()
     );
     const AmountPaid = encodeURIComponent(
-      document.getElementById("Amount-Paid").value.trim()
+      document.getElementById("amount-Paid").value.trim()
     );
     // const deliveryLocation = encodeURIComponent(
     //   document.getElementById("delivery-location").value.trim()
