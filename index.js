@@ -16,12 +16,7 @@ document
     const pickUpItem = encodeURIComponent(
       document.getElementById("pick-up-item").value.trim()
     );
-    const deliveryLocation = encodeURIComponent(
-      document.getElementById("delivery-location").value.trim()
-    );
-    const deliveryContact = encodeURIComponent(
-      document.getElementById("delivery-contact").value.trim()
-    );
+  
 
     // Construct the message to be sent via WhatsApp with constant text
     const message = `
@@ -37,9 +32,7 @@ document
     
     Delivery Location: ${decodeURIComponent(deliveryLocation)}
     
-    Delivery Contact: ${decodeURIComponent(deliveryContact)}
-
-   Receiver's Name: ${decodeURIComponent(deliveryLocation)}`.trim();
+`.trim();
 
     // Construct the WhatsApp URL with the encoded message
     const phoneNumber = "+2348088943403"; // Replace with your phone number in international format
