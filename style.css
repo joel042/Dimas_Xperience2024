@@ -13,11 +13,9 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-.header-name {
-  font-family: "Great Vibes", cursive;
-}
+
 .address {
-  color: blue;
+
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 label {
