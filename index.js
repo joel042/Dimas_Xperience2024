@@ -7,14 +7,14 @@ document
     const name = encodeURIComponent(
       document.getElementById("name").value.trim()
     );
-    const pickUpLocation = encodeURIComponent(
+    const FullName = encodeURIComponent(
       document.getElementById("Full-Name").value.trim()
     );
-    const pickUpContact = encodeURIComponent(
+    const EmailAddress = encodeURIComponent(
       document.getElementById("Email-address").value.trim()
     );
-    const pickUpItem = encodeURIComponent(
-      document.getElementById("pick-up-item").value.trim()
+    const AmountPaid = encodeURIComponent(
+      document.getElementById("Amount-Paid").value.trim()
     );
     // const deliveryLocation = encodeURIComponent(
     //   document.getElementById("delivery-location").value.trim()
@@ -28,11 +28,11 @@ document
 
     Name: ${decodeURIComponent(name)}
     
-    Pick-up Location: ${decodeURIComponent(pickUpLocation)}
+    Pick-up Location: ${decodeURIComponent(FullName)}
     
-    Pick-up Contact: ${decodeURIComponent(pickUpContact)}
+    Pick-up Contact: ${decodeURIComponent(EmailAddress)}
     
-    Pick-up Item(s): ${decodeURIComponent(pickUpItem)}`.trim();
+    Pick-up Item(s): ${decodeURIComponent(AmountPaid)}`.trim();
 
     // Construct the WhatsApp URL with the encoded message
     const phoneNumber = "+2348088943403"; // Replace with your phone number in international format
