@@ -24,7 +24,7 @@ document
 
     // Construct the message to be sent via WhatsApp with constant text
     const message = `
-    T-Mobile Logistics
+    DIMAS XPERIENCE 2024 TICKET CONFIRMATION
 
     Name: ${decodeURIComponent(name)}
     
