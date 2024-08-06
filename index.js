@@ -28,11 +28,11 @@ document
 
     Name: ${decodeURIComponent(name)}
     
-    Pick-up Location: ${decodeURIComponent(FullName)}
+    Full Name: ${decodeURIComponent(FullName)}
     
-    Pick-up Contact: ${decodeURIComponent(EmailAddress)}
+    Email Address: ${decodeURIComponent(EmailAddress)}
     
-    Pick-up Item(s): ${decodeURIComponent(AmountPaid)}`.trim();
+   Amount Paid: ${decodeURIComponent(AmountPaid)}`.trim();
 
     // Construct the WhatsApp URL with the encoded message
     const phoneNumber = "+2348088943403"; // Replace with your phone number in international format
