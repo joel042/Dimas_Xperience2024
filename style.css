@@ -78,6 +78,28 @@ form {
   margin-top: 20px;
 }
 
+
+.magazine-form{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    
+}
+
+.magazine-text{
+    text-align: start;
+height: 200px;
+width: 300px;
+ 
+ font-weight: 600;
+
+}
+
+.magazineHeaderText{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+}
 .clearBtn:hover{
   background-color: darkred;
   color: white;
